@@ -1,0 +1,21 @@
+{
+  "name": "llm-post-training-code-lens",
+  "version": "0.1.0",
+  "private": false,
+  "description": "大模型后训练与注意力机制手撕代码透镜",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "format:check": "prettier --check ."
+  },
+  "keywords": ["llm", "post-training", "ppo", "dpo", "grpo", "gqa", "mha", "vitepress"],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.0"
+  }
+}
+
